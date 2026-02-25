@@ -1,0 +1,232 @@
+body{
+background-attachment: fixed;
+background-repeat: repeat;
+background-position: top left;
+image-rendering: pixelated;
+}
+.container{
+max-width: 1200px;
+}
+.navbar {
+background-color: #1f1f1f;
+height: 75px;
+}
+
+.navbar-brand, .nav-link {
+color: #fff !important;
+}
+
+.nav-link:hover {
+color:#5D3FD3 !important;
+}
+
+.navbar-brand i {
+color:#5D3FD3;
+}
+
+.carousel{
+max-width: 900px;
+margin: 40px auto;
+}
+
+.carousel-item img {
+height: 500px;
+width: 400px;
+border-radius: 15px;
+box-shadow:  inset 0 6px 15px rgba(0, 0, 0, 0.6), 0 8px 25px rgba(0, 0, 0, 0.7), 0 12px 40px rgba(0, 0, 0, 0.5); 
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+
+ }
+
+.carousel-item img:hover {
+transform: scale(1.05);
+box-shadow: 3px 8px 30px rgba(0, 0, 0, 0.7);
+border-radius: 15px;
+}
+.img-container {
+  border-radius: 15px;  
+  overflow: hidden; 
+  width: 100%;
+}
+ h1 {
+  color: #5D3FD3;
+  text-align:left;
+  margin: 30px 0;
+}
+p{
+    color: white;
+    font-size: 14px;
+}
+
+.card {
+  background-color: #1f1f1f;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.5), 0 4px 15px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.5), 0 8px 25px rgba(0,255,153,0.7);
+}
+.card .card-body {
+  padding: 15px;
+  height: 200px;
+}
+.card .card-title {
+  font-weight: bold;
+  color: #00ff99;
+}
+.card .preco {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.comprar-btn {
+  background-color: #00ff99;
+  color: #121212;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.comprar-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00ff99;
+}
+
+.footer {
+  background: #1a0033; 
+  color: #e0e0e0;
+  padding: 50px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo h2 {
+  color: #00ff99; 
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-logo h2 span {
+  color: #9b4dff; 
+}
+
+.footer-logo p {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.footer-links, .footer-social {
+  min-width: 200px;
+}
+
+.footer-links h3, .footer-social h3 {
+  color: #9b4dff;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #00ff99;
+}
+
+.social-icons a {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00ff99;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 10px;
+  }
+}
+.reddit-section {
+  background-color: #1a0033;
+  color: #e0e0e0;
+}
+
+.section-title {
+  color: #00ff99;
+  font-weight: 700;
+}
+
+.reddit-card {
+  background-color: #2a004d;
+  border: 1px solid #9b4dff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.reddit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(155, 77, 255, 0.5);
+}
+
+.reddit-card .card-title {
+  color: #9b4dff;
+  font-weight: 600;
+}
+
+.reddit-card .btn-outline-success {
+  border-color: #00ff99;
+  color: #00ff99;
+  transition: 0.3s;
+}
+
+.reddit-card .btn-outline-success:hover {
+  background-color: #00ff99;
+  color: #1a0033;
+}
